@@ -13,7 +13,9 @@ class WelcomeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->publishes([
+            __DIR__.'/../publishable/assets' => public_path('assets')
+        ]);
     }
 
     /**

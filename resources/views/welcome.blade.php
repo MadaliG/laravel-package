@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to the welcome package!!!!!!!!!!!!</title>
+    <link rel="stylesheet" type="text/css" href="/assets/welcome.css">
 </head>
 <body>
     @if(isset($name))
-    <h1>Hello {{ $name }}</h1>
+    <h1>Hello there, {{ $name }}</h1>
     @endif
     <h2>Welcome to package dev bla bla whatevs</h2>
 </body>
