@@ -1,5 +1,10 @@
 {
     "name": "dovemad/welcome",
     "description": "This is for packaging tests",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dovemad\\Welcome\\": "src/"
+        }
+    }
 }
